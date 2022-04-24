@@ -1,1 +1,1 @@
-# Anak-2.github.io
+# VanillaJS Project
