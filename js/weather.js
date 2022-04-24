@@ -15,7 +15,7 @@ function onGeoOk(position) {
 }
 
 function onGeoError() {
-  alert("Oops");
+  alert("Oops you rejected Collecting your location!");
 }
 
 navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
