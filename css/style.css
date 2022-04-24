@@ -1,0 +1,52 @@
+.hidden {
+  display: none !important;
+}
+
+#quote p {
+  font-style: italic;
+  font-weight: bold;
+  margin: 0px;
+}
+
+#quote p:last-child {
+  margin-bottom: 10px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#content {
+  /* color: white; */
+  width: 50%;
+  text-align: center;
+}
+#todo-form {
+  display: inline-block;
+  position: relative;
+}
+
+#todo-form textarea {
+  display: block;
+}
+
+/* submit button */
+#todo-form input {
+  position: absolute;
+  margin-left: 30px;
+}
+
+ul {
+  margin-left: 20%;
+  text-align: left;
+  padding: 0px;
+  list-style: none;
+}
+/* ul li {
+  padding-right: 20%;
+  margin-bottom: 10px;
+} */
+ul li span {
+  border-bottom: 1px solid;
+}
