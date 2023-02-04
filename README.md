@@ -1,3 +1,3 @@
 # VanillaJS Project
 
-This project is to clone coding a momentum app
+This project is cloning a momentum app withe vanillaJS
